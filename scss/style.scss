@@ -1,0 +1,64 @@
+@import "variable.scss";
+@import "reset.scss";
+
+a {
+  text-decoration: none;
+}
+
+.wrapper__bg {
+  margin: 0 auto;
+  background: url(/img/bg_2.png), url(/img/bg_1.png);
+  max-width: 94em;
+  height: 64em;
+}
+
+.creative__title {
+  color: $pink;
+}
+
+.header__menu {
+  @include content_box;
+}
+
+.header__nav {
+  ul {
+    display: flex;
+    // margin-top: 2.625em;
+  }
+  li {
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: #fff;
+    width: 8.125em;
+    height: 7.25em;
+    text-align: center;
+    line-height: 7.25em;
+  }
+   li:hover {
+    @include link_active;
+}
+}
+
+.logo {
+  margin: 2.625em 25.125em 0em 0em;
+}
+
+.header__action {
+  display: flex;
+  margin-left: 1.063em;
+  a {
+    text-align: center;
+    line-height: 8em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 0.875em;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  :first-child {
+    margin-right: 20px;
+}
+}

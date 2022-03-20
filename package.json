@@ -1,11 +1,18 @@
 {
-  "name": "hw_2",
+  "name": "practice",
   "version": "1.0.0",
-  "description": "2 cite",
-  "main": "index.js",
+  "description": "",
+  "source": "./index.html",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "parcel",
+  "build": "parcel build"
   },
-  "author": "Alexis Kozlov",
-  "license": "ISC"
-}
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  "@parcel/transformer-sass": "^2.3.2",
+  "parcel": "^2.3.2",
+  "sass": "^1.49.9"
+  }
+  }
