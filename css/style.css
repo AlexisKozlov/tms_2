@@ -292,6 +292,11 @@ a {
 
 .story__wrapper .story__pics .pic {
   margin-right: 1.875rem;
+  position: relative;
+}
+
+.story__wrapper .story__pics .pic .img__pict {
+  position: relative;
 }
 
 .story__wrapper .story__pics .pic .bg__grad {
