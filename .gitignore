@@ -1,5 +1,6 @@
 node_modules.
 parcel-cache/**
-dist/
+dist/**
 .sass-cache
 .vscode
+node_modules
